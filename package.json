@@ -1,0 +1,27 @@
+{
+  "name": "web-framework-comparison",
+  "version": "1.0.0",
+  "description": "Comparing 13 Node.js web frameworks for setting up a GET & POST request handler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Lakatos",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^6.1.1",
+    "@nestjs/core": "^6.1.1",
+    "@nestjs/platform-express": "^6.1.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fastify": "^2.3.0",
+    "hapi": "^18.1.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "micro": "^9.3.3",
+    "reflect-metadata": "^0.1.13",
+    "restify": "^8.3.1",
+    "rxjs": "^6.5.1"
+  }
+}
