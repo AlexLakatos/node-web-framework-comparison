@@ -1,21 +1,7 @@
-const application = require('./dist');
-
-module.exports = application;
-
-if (require.main === module) {
-  // Run the application
-  const config = {
-    rest: {
-      port: +(process.env.PORT || 3000),
-      host: process.env.HOST,
-      openApiSpec: {
-        // useful when used with OASGraph to locate your application
-        setServersFromRequest: true,
-      },
-    },
-  };
-  application.main(config).catch(err => {
-    console.error('Cannot start the application.', err);
-    process.exit(1);
-  });
+"use strict";
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(require("./src"));
+//# sourceMappingURL=index.js.map

@@ -19,9 +19,12 @@ export class AppController {
 
   @Get()
   getHello(): Object {
-    return {
-      talk: "Hello from nest"
-    };
+    return [
+      {
+        action: "talk",
+        text: "Hello from nest"
+      }
+    ];
   }
 
   @Post()
@@ -41,6 +44,6 @@ export class AppModule { }
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  await app.listen(3000);
+  await app.listen(3000, () => console.log("Nest listening on port 3000!"));
 }
 bootstrap();

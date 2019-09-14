@@ -1,14 +1,16 @@
-const http = require('http');
-const bodyParser = require('body-parser');
+const http = require("http");
+const bodyParser = require("body-parser");
 var jsonParser = bodyParser.json();
 
 const server = http.createServer((req, res, next) => {
   if (req.url === "/") {
     if (req.method === "GET") {
-      res.setHeader('Content-Type', 'application/json');
-      res.end(JSON.stringify({
-        talk: "Hello from vanilla"
-      }));
+      res.setHeader("Content-Type", "application/json");
+      res.end(
+        JSON.stringify({
+          talk: "Hello from vanilla"
+        })
+      );
     } else {
       jsonParser(req, res, () => {
         console.log(req.body);

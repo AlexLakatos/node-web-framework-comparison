@@ -29,9 +29,12 @@ exports.EventDataType = EventDataType;
 let AppController = class AppController {
     constructor() { }
     getHello() {
-        return {
-            talk: "Hello from nest"
-        };
+        return [
+            {
+                action: "talk",
+                text: "Hello from nest"
+            }
+        ];
     }
     postEvent(body) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -71,7 +74,7 @@ exports.AppModule = AppModule;
 function bootstrap() {
     return __awaiter(this, void 0, void 0, function* () {
         const app = yield core_1.NestFactory.create(AppModule);
-        yield app.listen(3000);
+        yield app.listen(3000, () => console.log("Nest listening on port 3000!"));
     });
 }
 bootstrap();

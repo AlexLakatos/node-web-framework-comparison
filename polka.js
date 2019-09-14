@@ -1,15 +1,15 @@
-const polka = require('polka');
-const send = require('@polka/send-type');
-const { json } = require('body-parser');
+const polka = require("polka");
+const send = require("@polka/send-type");
+const { json } = require("body-parser");
 
 polka()
   .use(json())
-  .get('/', (req, res) => {
+  .get("/", (req, res) => {
     send(res, 200, {
       talk: "Hello from polka"
     });
   })
-  .post('/', (req, res) => {
+  .post("/", (req, res) => {
     console.log(req.body);
     res.end();
   })
