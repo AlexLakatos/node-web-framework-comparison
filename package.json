@@ -11,10 +11,10 @@
   "dependencies": {
     "@nestjs/common": "^6.1.1",
     "@nestjs/core": "^6.1.1",
-    "@nestjs/platform-express": "^6.1.1",
+    "@nestjs/platform-express": "^8.4.0",
     "@polka/send-type": "^0.5.2",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
     "fastify": "^2.3.0",
     "hapi": "^18.1.0",
     "koa": "^2.7.0",
