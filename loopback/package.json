@@ -43,7 +43,7 @@
     "@loopback/rest-explorer": "^1.1.18"
   },
   "devDependencies": {
-    "@loopback/build": "^1.5.0",
+    "@loopback/build": "^9.0.8",
     "@loopback/testlab": "^1.2.5",
     "@loopback/tslint-config": "^2.0.4",
     "@types/node": "^10.11.2",
