@@ -23,7 +23,7 @@
     "micro": "^9.3.3",
     "polka": "^0.5.2",
     "reflect-metadata": "^0.1.13",
-    "restify": "^8.3.1",
+    "restify": "^10.0.0",
     "rxjs": "^6.5.1"
   }
 }
