@@ -19,7 +19,7 @@
     "hapi": "^18.1.0",
     "koa": "^2.7.0",
     "koa-body": "^4.1.0",
-    "koa-router": "^7.4.0",
+    "koa-router": "^11.0.2",
     "micro": "^9.3.3",
     "polka": "^0.5.2",
     "reflect-metadata": "^0.1.13",
