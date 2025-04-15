@@ -9,7 +9,7 @@
   "author": "Alex Lakatos",
   "license": "ISC",
   "dependencies": {
-    "@nestjs/common": "^6.1.1",
+    "@nestjs/common": "^11.0.16",
     "@nestjs/core": "^6.1.1",
     "@nestjs/platform-express": "^6.1.1",
     "@polka/send-type": "^0.5.2",
@@ -17,7 +17,7 @@
     "express": "^4.16.4",
     "fastify": "^2.3.0",
     "hapi": "^18.1.0",
-    "koa": "^2.7.0",
+    "koa": "^2.16.1",
     "koa-body": "^4.1.0",
     "koa-router": "^7.4.0",
     "micro": "^9.3.3",
